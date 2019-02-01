@@ -1,0 +1,362 @@
+*{
+  box-sizing: border-box;
+}
+
+[class*="col-"] {float: left; padding: 15px;}
+
+/* For Smartphone */
+[class*="col-"] { width: 100%;}
+
+@media only screen and (min-width: 600px) {
+  /* For Tablets */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For deskop */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+body{
+padding: 0;
+}
+
+div.menu{
+  background: #2a6bd3;
+  height: 100px;
+}
+
+div.menu ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  margin-bottom: 90px;
+}
+
+div.menu ul li{
+    float: right;
+}
+
+div.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  margin: 0;
+  padding: 10px 15px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+div.menu a:hover{
+border-bottom: 2px solid #fff;
+}
+
+div.menu img{
+  width: 90px;
+  height: 70px;
+}
+
+div.header{
+  width: 100%;
+  height: 500px;
+  background: url("patung.jpg");
+  background-size: cover;
+  float: left;
+}
+
+div.gelap{
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  opacity: 0.7;
+  float: left;
+}
+
+div.header h1{
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  top: 300px;
+  left: 420px;
+}
+
+div.header h1 img{
+      width: 200px;
+      height: auto;
+  }
+
+div.sejarah{
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(white 180px, #8baee5 120px);
+  float: left;
+}
+
+div.sejarah .left{
+  width: 50%;
+  height: 100%;
+  text-align: right;
+  float: left;
+}
+
+div.sejarah .left h1{
+  text-align: right;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 15;
+  text-transform: uppercase;
+  padding-right: 20px;
+}
+
+div.sejarah .left p{
+  text-align: right;
+  color: dark blue;
+  font-size: 20px;
+}
+
+div.sejarah .right{
+  width: 50%;
+  height: 400px;
+  float: right;
+}
+
+div.sejarah .right img{
+  width: 450px;
+  height: 300px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.image{
+  width: 300px;
+  height: 300px;
+}
+
+.container {
+  width: 80%;
+  margin-left: 300px;
+}
+
+.box{
+  text-align: center;
+  margin-left: 300px;
+}
+
+div.wisata{
+width: 100%;
+height: 500px;
+background: url("mbk.jpg");
+background-size: cover;
+float: left;
+}
+
+div.wisata .gambar img{
+  width:auto;
+  height:180px;
+  position:absolute;
+}
+
+div.wisata .gambar{
+  width:auto;
+  height: auto;
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 40%;
+}
+}
+div.gelap{
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  opacity: 0.7;
+  float: left;
+}
+
+div.wisata h1{
+  position: absolute;
+  color: #fff;
+  margin-left: 535px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  float: left;
+  margin-top: 0%;
+}
+
+div.wisata h3{
+  position: absolute;
+  color: lightblue;
+  margin-left: 450px;
+  margin-top: 3%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  float: left;
+}
+
+div.right .img{
+position: absolute;
+width: 100px;
+height: 100px;
+margin-top: 15%;
+}
+
+div.wisata .right p {
+position: absolute;
+color: #fff;
+text-align: center;
+font-size: 15px;
+margin-left:425px;
+margin-top: 320px;
+}
+
+div.kampung{
+  width: 100%;
+  height: 470px;
+  background: #8baee5;
+  float: left;
+  position: relative;
+}
+
+div.kampung h3{
+  color: yellow;
+  margin-left: 450px;
+  margin-top: 1%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  float: left;
+}
+
+.kampung .left img{
+  width: 380px;
+  height: 350px;
+  position: absolute;
+  top: 0;
+  margin-left: 4px;
+  margin-top: 6%;
+  float: right;
+}
+.kampung .left{
+  width: 50%;
+  height: auto;
+}
+
+.kampung .right p{
+  text-align: right;
+  float: right;
+  position: absolute;
+  width:50%;
+  margin-top:155px;
+}
+.kampung .right{
+  width:53%;
+  height:auto;
+  margin-left: 1%;
+  margin-top:1%;
+}
+
+.kampung .box{
+  text-align: center;
+  margin-left: 300px;
+}
+
+div.kuliner{
+  width: 100%;
+  height: auto;
+  float: left;
+  background: #f45642;
+}
+
+div.kuliner .makanan h1{
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+  font-family: fantasy;
+  text-transform: uppercase;
+}
+
+div.kuliner .box{
+  display: inline-block;
+  height: 555px;
+  width: 291px;
+  font-size: 315px;
+  float: left;
+  border: 5px solid #fff;
+  margin: 10px;
+}
+
+div.kuliner .box img{
+  width: 250px;
+  height: 220px;
+  margin-bottom: 27px;
+}
+
+div.kuliner .box:hover{
+  border: 3px solid pink;
+}
+
+div.kuliner .box h3{
+  padding: 3px;
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+  margin: -20px;
+}
+
+div.kuliner .box p{
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 21px;
+}
+
+div.footers{
+    width: 100%;
+    height: 50px;
+    background:#111;
+    float: left;
+}
+
+div.footers .left{
+    width: 50%;
+    height: auto;
+}
+
+div.footers .left h5{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 25;
+    margin-left: 8px;
+}
